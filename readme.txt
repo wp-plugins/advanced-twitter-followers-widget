@@ -40,7 +40,8 @@ Check the documentation folder. or go here - http://sparxseo.com/documentation/a
 
 == Screenshots ==
 
-screenshots of backend and frontend of the widget are attached with the package. documentation folder
+1. Frontned Screenshot
+2. Backend Screenshot
 
 == Changelog ==
 
