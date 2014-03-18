@@ -6,7 +6,6 @@ Author URL : http://www.sparxseo.com
 Tags: advanced twitter followers widget, wordpress widget, advanced twitter, twitter followers, twitter widget, twitter api, twitter, wordpress widget for twitter followers
 Requires at least: 3.0.1
 Tested up to: 3.8
-Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
