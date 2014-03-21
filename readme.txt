@@ -40,9 +40,13 @@ Check the documentation folder. or go here - http://sparxseo.com/documentation/a
 
 == Screenshots ==
 
-screenshots of backend and frontend of the widget are attached with the package. documentation folder
+1. Frontend Screenshot
+2. Backend Screenshot
 
 == Changelog ==
 
 = 1.0 =
 Stable version release - 12th March 2014
+
+= 1.1 =
+bug fixes - wordress terms and condition - add some error checking
