@@ -6,7 +6,7 @@
 Plugin Name: Advanced Twitter Followers Widget
 Plugin URI: http://www.sparxseo.com
 Description: Advanced Twitter Followers Widget for Wordpress.Advanced Twitter Followers Widget is an advanced Wordpress Twitter Followers Display widget which allow to customized in lots of way. You can add or remove options as well change color of background. No of Twitter followers to display and lots of. So Hope you will enjoy our this free wordpress widget :) .
-Version: 1.0
+Version: 1.1
 Author: Alan Ferdinand
 Author URI: http://www.sparxseo.com
 */
@@ -256,12 +256,12 @@ class advancedTwitterFollowersWidget extends WP_Widget{
     </select>
 </p>
 <p>
-    <label for="<?php echo $this->get_field_id( 'author' ); ?>">Promote Author :</label> 
+    <label for="<?php echo $this->get_field_id( 'author' ); ?>">Support Author :</label> 
     <select id="<?php echo $this->get_field_id( 'author' ); ?>"
         name="<?php echo $this->get_field_name( 'author' ); ?>"
         class="widefat" style="width:100%;">
-            <option value="true" <?php if ($author == 'true') echo 'selected="true"'; ?> >Ok Sure!</option>
-            <option value="false" <?php if ($author == 'false') echo 'selected="false"'; ?> >No</option>	
+			<option value="false" <?php if ($author == 'false') echo 'selected="false"'; ?> >I'm not Supporting Author</option>
+            <option value="true" <?php if ($author == 'true') echo 'selected="true"'; ?> >I'm Supporting Author</option>
     </select>
 </p>
 <!--end of configuration fields-->
@@ -353,7 +353,10 @@ $data .= "</div>
 	$data .= "<div style='font-size: 9px; color: #808080; font-weight: normal; font-family: tahoma,verdana,arial,sans-serif; line-height: 1.28; text-align: right; direction: ltr;'><a href='http://www.sparxseo.com' target='_blank' style='color: #808080;' title='Powered by SparxSEO'>SparxSEO.COM</a></div>";}
             echo $before_widget;
             echo $before_title . $title . $after_title;
-            echo $data;
+			if($consumerKey == "" && $consumerSecret == "" && $accessToken == "" && $accessTokenSecret == ""){
+				echo "Please check documentation. You must have to fill all require fields of Twitter Configuration";
+			}else{
+				echo $data;}
             echo $after_widget;
     }
 }
