@@ -321,7 +321,7 @@ class advancedTwitterFollowersWidget extends WP_Widget{
 			<div class='clr'></div>
 		</div>
 			<div class='imagelisting'>
-                            <p>$followers peoples erare following <strong><a href='//twitter.com/$userScreenName' target='_blank'>$userScreenName</a></strong> @twitter</p>
+                <p>$followers peoples erare following <strong><a href='//twitter.com/$userScreenName' target='_blank'>$userScreenName</a></strong> @twitter</p>
     <ul>";
 foreach($string as $items){						
 $length = count($items);
@@ -349,7 +349,7 @@ $data .= "</div>
 			</div>
 		</div>
 	</div>";
-	$data .= "<div style='font-size: 9px; color: #808080; font-weight: normal; font-family: tahoma,verdana,arial,sans-serif; line-height: 1.28; text-align: right; direction: ltr;'><a href='https://plus.google.com/+Liveherechicago773' target='_blank' style='color: #808080;' title='LiveHereChicago.com'>Live Here Chicago</a></div>";
+	$data .= "<div style='font-size: 9px; color: #808080; font-weight: normal; font-family: tahoma,verdana,arial,sans-serif; line-height: 1.28; text-align: right; direction: ltr;'><a href='http://www.garretcordwerner.com' target='_blank' style='color: #808080;' title='click here'>Seattle Architect</a></div>";
             echo $before_widget;
             echo $before_title . $title . $after_title;
 			if($consumerKey == "" && $consumerSecret == "" && $accessToken == "" && $accessTokenSecret == ""){
