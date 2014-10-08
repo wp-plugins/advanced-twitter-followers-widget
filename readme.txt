@@ -13,7 +13,7 @@ Advanced Twitter Followers is free twitter followers display widget. Using this 
 
 == Description ==
 
-Thanks for installing our developed wordpress widget.
+Thanks for installing our developed free wordpress widget.
 
 Advanced Twitter Followers Widget is as much like facebook like box. As Facebook Like box show the thumbnails of peoples who do like the facebook page. As like much Advanced Twitter Followers Widget will show the followers thumbnail on your wordpress website.
 
